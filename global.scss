@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: black;
+  font-family: sans-serif;
+  position: relative;
+  z-index: -10;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width:90%;
+  margin: 0 auto;
+
+}
+// variables
+  $r:red;
+  $w:white;
+  $b:black;
+// variables
+//mixins
+@mixin align{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin btn{
+  width: 176px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  color:$b;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.065em;
+  transition:.4s;
+  &:hover{
+    transform: scale(1.1);
+    background: transparent;
+    border: 2px solid $w;
+    color:$w;
+  }
+}
+@mixin btn1{
+  width: 176px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 27px;
+  color:$b;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.065em;
+  transition:.4s;
+  &:hover{
+    transform: scale(1.1);
+    background: transparent;
+    border: 2px solid $w;
+    color:$w;
+  }
+}
+@mixin btn2{
+  width: 206px;
+  height: 57px;
+  background: #FF0000;
+  border-radius: 51px;
+  color: $w;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.065em;
+  transition:.4s;
+  &:hover{
+    transform: scale(1.1);
+    background: transparent;
+    border: 2px solid $r;
+  }
+}
+
+//mixins
+

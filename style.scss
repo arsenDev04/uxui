@@ -1,0 +1,197 @@
+@import "./global";
+
+#header{
+  padding: 25px 0;
+  .header{
+    border:3px solid $r;
+    border-radius: 10px;
+    padding: 10px;
+    &--hero{
+      @include align();
+      a{
+        color:$w;
+        font-weight: 700;
+        font-size: 16px;
+        padding:0 30px 0 30px;
+        transition:.4s;
+        &:hover{
+          color:$r;
+        }
+      }
+      button{
+        @include btn()
+      }
+    }
+  }
+}
+#max{
+  padding: 100px;
+  .max{
+    &--hero{
+      //backdrop-filter:blur(1000px);
+      //box-shadow: 0 0 500px 50px  red;
+      ////background:2px rgba(253, 0, 1, 0.79);
+      //border-radius:50%;
+      //width: 800px;
+      //height: 400px;
+
+      h1{
+        font-family: 'Fira Sans',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 144px;
+        letter-spacing: 0.065em;
+        color: #FFFFFF;
+        text-align: center;
+        //border-bottom: 2px solid $r;
+      }
+      p{
+        font-family: 'Fira Sans',sans-serif;
+        font-style: normal;
+        padding-top: 30px;
+        font-weight: 700;
+        font-size: 33px;
+        letter-spacing: 0.065em;
+        color: #FFFFFF;
+        text-align: center;
+      }
+      &__btn{
+        text-align: center;
+        padding: 30px;
+        button{
+          @include btn1();
+        }
+      }
+      h3{
+        text-align: center;
+        font-family: 'Fira Sans',sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: 0.065em;
+        line-height: 40px;
+        color: #FFFFFF;
+      }
+      img{
+        position: absolute;
+        left: 0;
+        top: 280px;
+      }
+
+    }
+    &--nav{
+      bottom: 100px;
+      width: 70px;
+      height: 70px;
+      border-radius:50%;
+      background:$r;
+      font-size: 50px;
+      z-index: 50;
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a{
+        color:$w;
+      }
+    }
+  }
+}
+#profess{
+  padding: 100px;
+  .profess{
+    &--hero{
+      text-align: center;
+      h1{
+        font-family: 'Fira Sans',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: 0.065em;
+        color: #FFFFFF;
+        //border-top:2px solid $r;
+        //border-radius: 0 10px 0 0;
+        //padding: 10px 20px 10px 20px;
+      }
+      p{
+        width: 1159px;
+        height: 116px;
+        font-family: 'Fira Sans',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        padding-top: 30px;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.065em;
+        color: #FFFFFF;
+      }
+
+    }
+    &--foot{
+      @include align();
+      padding-top: 50px;
+      &__img{
+        text-align: center;
+        p{
+          font-weight: 700;
+          font-size: 24px;
+          letter-spacing: 0.065em;
+          color: #FFFFFF;
+          border-bottom:2px solid$r;
+          padding-bottom: 5px;
+          padding-top: 20px;
+        }
+      }
+    }
+    &--navbar{
+      padding: 80px;
+      @include align();
+     &__footer{
+       h1{
+         width: 250px;
+         height: 88px;
+         font-family: 'Fira Sans',sans-serif;
+         font-style: normal;
+         font-weight: 700;
+         font-size: 30px;
+         line-height: 36px;
+         text-align: center;
+         letter-spacing: 0.065em;
+         color: #FFFFFF;
+         border-top:2px solid$r;
+         margin-left: 100px;
+       }
+       p{
+         width: 548px;
+         height: 88px;
+         font-family: 'Fira Sans',sans-serif;
+         font-style: normal;
+         font-weight: 700;
+         font-size: 18px;
+         line-height: 22px;
+         text-align: center;
+         letter-spacing: 0.065em;
+         color: #FFFFFF;
+         padding: 0 50px 0 50px;
+         margin-left: -100px;
+
+       }
+     }
+    }
+    &--btn{
+      text-align: center;
+      padding-top: 50px;
+      button{
+        @include btn1();
+      }
+    }
+    &--img{
+      //@include align();
+      position: relative;
+      &__img{
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+}

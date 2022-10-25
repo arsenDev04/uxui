@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  font-family: sans-serif;
+  position: relative;
+  z-index: -10;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 25px 0;
+}
+#header .header {
+  border: 3px solid red;
+  border-radius: 10px;
+  padding: 10px;
+}
+#header .header--hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header--hero a {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0 30px 0 30px;
+  transition: 0.4s;
+}
+#header .header--hero a:hover {
+  color: red;
+}
+#header .header--hero button {
+  width: 176px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.065em;
+  transition: 0.4s;
+}
+#header .header--hero button:hover {
+  transform: scale(1.1);
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+#max {
+  padding: 100px;
+}
+#max .max--hero h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 144px;
+  letter-spacing: 0.065em;
+  color: #FFFFFF;
+  text-align: center;
+}
+#max .max--hero p {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 33px;
+  letter-spacing: 0.065em;
+  color: #FFFFFF;
+  text-align: center;
+}
+#max .max--hero__btn {
+  text-align: center;
+  padding: 30px;
+}
+#max .max--hero__btn button {
+  width: 176px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 27px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.065em;
+  transition: 0.4s;
+}
+#max .max--hero__btn button:hover {
+  transform: scale(1.1);
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+#max .max--hero h3 {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.065em;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+#max .max--hero img {
+  position: absolute;
+  left: 0;
+  top: 280px;
+}
+#max .max--nav {
+  bottom: 100px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: red;
+  font-size: 50px;
+  z-index: 50;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#max .max--nav a {
+  color: white;
+}
+
+#profess {
+  padding: 100px;
+}
+#profess .profess--hero {
+  text-align: center;
+}
+#profess .profess--hero h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.065em;
+  color: #FFFFFF;
+}
+#profess .profess--hero p {
+  width: 1159px;
+  height: 116px;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 30px;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.065em;
+  color: #FFFFFF;
+}
+#profess .profess--foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+#profess .profess--foot__img {
+  text-align: center;
+}
+#profess .profess--foot__img p {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.065em;
+  color: #FFFFFF;
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
+#profess .profess--navbar {
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#profess .profess--navbar__footer h1 {
+  width: 250px;
+  height: 88px;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.065em;
+  color: #FFFFFF;
+  border-top: 2px solid red;
+  margin-left: 100px;
+}
+#profess .profess--navbar__footer p {
+  width: 548px;
+  height: 88px;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.065em;
+  color: #FFFFFF;
+  padding: 0 50px 0 50px;
+  margin-left: -100px;
+}
+#profess .profess--btn {
+  text-align: center;
+  padding-top: 50px;
+}
+#profess .profess--btn button {
+  width: 176px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 27px;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.065em;
+  transition: 0.4s;
+}
+#profess .profess--btn button:hover {
+  transform: scale(1.1);
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+#profess .profess--img {
+  position: relative;
+}
+#profess .profess--img__img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
